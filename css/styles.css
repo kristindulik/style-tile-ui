@@ -1,0 +1,385 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+
+.color-1 {
+    background-color: darkred; 
+    border: none;
+}
+.color-2 {
+    background-color: indianred;
+    border: none;
+}
+.color-3 {
+    background-color: bisque; 
+    border: none;
+}
+.color-4 {
+    background-color: darkseagreen; 
+    border: none;
+}
+.color-5 {
+    background-color: darkgreen; 
+    border: none;
+}
+
+/* Textures or Patterns*/
+
+.pattern-1{
+    background-image:url("../img/contemporary_china.png");
+    width: 100px;
+    height:100px;
+    border: none;
+}
+
+.pattern-2{
+    background:url('../img/dark_embroidery.png');
+    width: 100px;
+    height:100px;
+    border: none;
+}
+
+.pattern-3{
+    background:url('../img/footer_lodyas.png');
+    width: 100px;
+    height:100px;
+    border: none;
+}
+
+.pattern-4{
+    background:url('../img/hoffman.png');
+    width: 100px;
+    height:100px;
+    border: none;
+}
+
+.pattern-5{
+    background:url('../img/symphony.png');
+    width: 100px;
+    height:100px;
+    border: none;
+}
+
+/* Imagery */
+.imagery-1{
+    background:url('../img/norway.jpg');
+    width: 300px;
+    height:200px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+}
+.imagery-2{
+    background:url('../img/greece.jpg');
+    width: 300px;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imagery-3{
+    background:url('../img/taxi.jpg');
+    width: 300px;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -80px;
+}
+
+.imagery-4{
+    background:url('../img/gin.jpg');
+    width: 300px;
+    height:200px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -50px;
+}
+
+.imagery-5{
+    background:url('../img/crepe.jpg');
+    width: 300px;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -120px;
+}
+
+/* Icons */
+.icon-1{
+    background:url('../img/Clock.png');
+    width: 128px;
+    height:128px;
+    border: none;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-2{
+    background:url('../img/Communication.png');
+    width: 128px;
+    height:128px;
+    border: none;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-3{
+    background:url('../img/Mobile.png');
+    width: 128px;
+    height:128px;
+    border: none;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-4{
+    background:url('../img/USB%20Drive.png');
+    width: 128px;
+    height:128px;
+    border: none;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-5{
+    background:url('../img/Office%20Chair.png');
+    width: 128px;
+    height:128px;
+    border: none;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* Typography */
+
+.grid-6 ul li{
+    list-style: none;
+    display: flex;
+    margin-left: 5px;
+    
+}
+
+.grid-6 h2 {
+    color: indianred   
+}
+
+.grid-6 p {
+    color: indianred   
+}
+
+
+.grid-6 a:link {
+    color: dimgrey;
+    text-decoration: none;
+    padding: .5em;
+
+}
+
+.grid-6 a:visited {
+    color: indianred;
+}
+
+.grid-6 a:hover {
+    color: darkseagreen;
+}
+
+.grid-6 button {
+    border: none;
+    background-color: darkseagreen;
+    color: white;
+    padding: 1em;
+    
+}
+
+h1 {
+    color: dimgrey;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: dimgrey;
+    font-size: 1em;  
+}
+
+p {
+    color: dimgrey;
+    font-size: 1em;    
+}
+
+
+#ptype h2  {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: lightcoral
+}
+#ptype h3  {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: darkseagreen;
+    font-size: 1em;
+}
+
+#ptype h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em;
+    
+}
+
+#ptype p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em;
+    
+}
+
+#ptype a  {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em;
+    color: darkseagreen;
+}
+
+#stype h2  {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: indianred;
+}
+#stype h3  {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: lightcoral;
+    font-size: 1em;
+}
+
+#stype h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em;
+    
+}
+
+#stype p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em;   
+}
+
+#stype a  {
+font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em; 
+    color: lightcoral;
+}
+    
+
+/* Forms */
+
+
+.button-a {
+    background: lightcoral;
+    border: none;
+    color: white;
+}
+.button-b {
+    background: darkseagreen;
+    border: none;
+    color: white;
+}
+
+#form label {
+    color: dimgrey;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#form input {
+    color: dimgrey;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    border: none;
+    
+}
+
+
+/* Tables */
+
+#form td {
+    padding: 1em;
+    border: none;
+    color: dimgrey;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    
+}
+
+/* Cards */
+
+#cards h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#cards figure {
+    background: indianred;
+    border: none;
+}
+
+
+
+#cards h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1em;
+}
+
+#cards figcaption {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: dimgrey;
+    font-size: .75em; 
+    color: white;
+}
+
+
+
+/* Navigation */
+a {
+    color: rgb(71, 190, 204);
+    text-decoration: none;
+}
+a:click {
+    color: dodgerblue
+}
+a:hover {
+    color: rgb(178, 62, 125);
+}
+.pnav h2 {
+    font-family: 'Lora', serif;
+}
+.link-button {
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background: rgb(71, 190, 204);
+    font-family: sans-serif;
+}
